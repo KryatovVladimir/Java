@@ -40,15 +40,16 @@ public class HomeWorkLesson2 {
 
     /*3. Написать метод, которому в качестве параметра передается целое число.
     Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.*/
-    public static int checkNumber (int a) {
+    public static boolean checkNumber (int a) {
         System.out.println("\n" + "Задача номер 3");
         System.out.println("На вход подано число: a = " + a);
         if (a >= 0){
             System.out.println("false");
+            return false;
         } else {
             System.out.println("true");
+            return true;
         }
-        return a;
     }
 
     /*4.Написать метод, которому в качестве аргументов передается строка и число,
